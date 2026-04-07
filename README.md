@@ -115,8 +115,8 @@ The "Red Zone" represents industries where informality is a direct, moderate-to-
 * Nearly half of all UK industrial output (as of 2023) originates within this "Red Zone",  
   making worker informality a systemic obstacle in scale-driven industries that underpin Britain's economy.
 
-## Visual Highlights
+## Visual - The "Informality Penalty"
 
-![page1]("C:\Users\itayb\Documents\page1.png")
+<img width="1283" height="709" alt="Image" src="https://github.com/user-attachments/assets/a2287c5d-4bcd-4094-9be1-6a97a1a40b2e" />
 
 ## Limitations
