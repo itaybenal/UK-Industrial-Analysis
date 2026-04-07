@@ -120,3 +120,28 @@ The "Red Zone" represents industries where informality is a direct, moderate-to-
 <img width="1283" height="709" alt="Image" src="https://github.com/user-attachments/assets/a2287c5d-4bcd-4094-9be1-6a97a1a40b2e" />
 
 ## Limitations
+
+**Correlation does not equal causality** -  
+This project is based on correlation analysis.   
+It does not prove that informality causes low productivity.  
+Further research is needed to determine if informality causes low productivity or if low-productivity firms simply use informal labour to stay afloat.  
+
+**Public vs. Private data** -  
+GVA data (divided by SIC 2007 industry codes) includes both public and private GVA, whereas informality metrics focus on private sector data exclusively.
+
+**Exclusion of 'Public Administration'** -  
+The industry 'Public Administration and Defence' has been excluded from analysis as it only contains data from the public sector.
+
+**SIC code combinations** -  
+The final list of industries (21) is built from combining 'Broad industrial groups' (highest categorisation) and 'Sections' (2nd highest) into a single, detailed list of general industries.
+
+**Self-employed data** -  
+Employment data (BRES) includes self-employed individuals only if registered for VAT/PAYE. Unregistered self-employed are excluded.
+
+**No Northern Ireland data** -  
+Following complications in the data extraction phase,   
+NI data has been excluded from analysis.
+
+**Null Handling** -  
+Records with missing values for key metrics were excluded from correlation calculations. This affects a small minority of observations.
+
