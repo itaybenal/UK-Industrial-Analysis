@@ -11,7 +11,7 @@ WITH t1 AS (
         corr(avg_informality_ratio, Large_norm) AS corr_informality_large
     FROM
         normalised_master_table_for_correlation
-    GROUP BY
+    GROUP BY 
         Industry
 )
 SELECT
