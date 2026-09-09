@@ -56,4 +56,4 @@ SELECT
 FROM
 	with_total
 ORDER BY
-    avg_gva_per_fte DESC
+    avg_gva_per_fte DESC  
