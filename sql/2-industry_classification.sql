@@ -3,7 +3,7 @@ WITH t1 AS (
 	    Industry,
        -- corr(y, x) calculates the Pearson correlation coefficient
        corr(avg_gva_per_fte, Micro_norm) AS corr_gva_micro,
-       corr(avg_gva_per_fte, Small_norm) AS corr_gva_small,
+       corr(avg_gva_per_fte, Small_norm) AS corr_gva_small, 
        corr(avg_gva_per_fte, Medium_norm) AS corr_gva_medium,
        corr(avg_gva_per_fte, Large_norm) AS corr_gva_large
 	FROM normalised_master_table_for_correlation
