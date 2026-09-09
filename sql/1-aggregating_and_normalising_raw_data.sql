@@ -7,7 +7,7 @@ WITH t1 AS (
 		AVG(workforce_informality_ratio) * 100.0 AS region_informality_ratio,
 		(SUM("pri_bs2(0-4)") * 100.0 / NULLIF (SUM("pri_bs1_Micro(0-9)") + SUM("pri_bs4_Small (10-49)") + SUM("pri_bs7_Medium(50-249)") + SUM("pri_bs10_Large(250+)"), 0)) AS "bs(0-4)_pct",
 		(SUM("pri_bs3(5-9)") * 100.0 / NULLIF (SUM("pri_bs1_Micro(0-9)") + SUM("pri_bs4_Small (10-49)") + SUM("pri_bs7_Medium(50-249)") + SUM("pri_bs10_Large(250+)"), 0)) AS "bs(5-9)_pct",
-		(SUM("pri_bs5(10-19)") * 100.0 / NULLIF (SUM("pri_bs1_Micro(0-9)") + SUM("pri_bs4_Small (10-49)") + SUM("pri_bs7_Medium(50-249)") + SUM("pri_bs10_Large(250+)"), 0)) AS "bs(10-19)_pct",
+		(SUM("pri_bs5(10-19)") * 100.0 / NULLIF (SUM("pri_bs1_Micro(0-9)") + SUM("pri_bs4_Small (10-49)") + SUM("pri_bs7_Medium(50-249)") + SUM("pri_bs10_Large(250+)"), 0)) AS "bs(10-19)_pct", 
 		(SUM("pri_bs6(20-49)") * 100.0 / NULLIF (SUM("pri_bs1_Micro(0-9)") + SUM("pri_bs4_Small (10-49)") + SUM("pri_bs7_Medium(50-249)") + SUM("pri_bs10_Large(250+)"), 0)) AS "bs(20-49)_pct",
 		(SUM("pri_bs8(50-99)") * 100.0 / NULLIF (SUM("pri_bs1_Micro(0-9)") + SUM("pri_bs4_Small (10-49)") + SUM("pri_bs7_Medium(50-249)") + SUM("pri_bs10_Large(250+)"), 0)) AS "bs(50-99)_pct",
 		(SUM("pri_bs9(100-249)") * 100.0 / NULLIF (SUM("pri_bs1_Micro(0-9)") + SUM("pri_bs4_Small (10-49)") + SUM("pri_bs7_Medium(50-249)") + SUM("pri_bs10_Large(250+)"), 0)) AS "bs(100-249)_pct",
